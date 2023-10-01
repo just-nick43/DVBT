@@ -9,16 +9,18 @@
 body {background-color: black;}
 
 .home{
-    border: 2px solid white;
+    
     display: flex;
     justify-content: center;
     align-items: center;  
-    width: 30% 
+    height: 700px;
+   
 }
 
 .home-text {
-    height: 50px;
+    
     width: 300px;   
+    margin-right: 50px;
 }
 
 .title{
@@ -37,12 +39,12 @@ body {background-color: black;}
     height: 35px;
     width: 300px;
     display: flex;
-    
+    font-size: 0.85rem;
 }
 
 .button-white{
     padding: 5px;
-    width: 100px;
+    width: 110px;
     background-color: white;
     color: black;
     display: flex;
@@ -52,17 +54,31 @@ body {background-color: black;}
 
 .button-black{
     padding: 5px;
-    width: 100px;
+    width: 110px;
     border-style: solid;
     border-width: 1px;
     border-color: white;
-    margin-left: 50px; 
+    margin-left: 70px; 
     display: flex;
     justify-content: center;
     align-items: center; 
 }
 
+.home-circle{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-circle i{
+    margin: 10px;
+}
 .home-img{
-    height: 50px;
-    width: 300px;  
+    
+    background-image: url('images/home_image.png');
+    background-size: cover;
+    object-fit: contain;
+    width: 450px;
+    height: 450px;  
 }
